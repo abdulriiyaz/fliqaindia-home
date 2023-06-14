@@ -24,10 +24,10 @@ function Content() {
                         alt="Image 1"
                     />
                     <CardHeader>
-                        <CardTitle className="whitespace-nowrap overflow-hidden overflow-ellipsis">
+                        <CardTitle className="whitespace-nowrap font-bold text-2xl overflow-hidden overflow-ellipsis">
                             Verified Reviews
                         </CardTitle>
-                        <CardDescription>
+                        <CardDescription className="text-base ">
                             For verified reviewers
                         </CardDescription>
                     </CardHeader>
@@ -40,10 +40,12 @@ function Content() {
                         width={122.65}
                     />
                     <CardHeader>
-                        <CardTitle className="whitespace-nowrap overflow-hidden overflow-ellipsis">
+                        <CardTitle className="whitespace-nowrap overflow-hidden font-bold text-2xl overflow-ellipsis">
                             Top Articles
                         </CardTitle>
-                        <CardDescription>Helps you decide</CardDescription>
+                        <CardDescription className="text-base ">
+                            Helps you decide
+                        </CardDescription>
                     </CardHeader>
                 </Card>
                 <Card className="flex items-center p-2 w-[488px] border-none">
@@ -54,10 +56,12 @@ function Content() {
                         width={118.25}
                     />
                     <CardHeader>
-                        <CardTitle className="whitespace-nowrap overflow-hidden overflow-ellipsis">
+                        <CardTitle className="font-bold text-2xl whitespace-nowrap overflow-hidden overflow-ellipsis">
                             Write Share Win Contest
                         </CardTitle>
-                        <CardDescription>Earn cash for reviews</CardDescription>
+                        <CardDescription className="text-base ">
+                            Earn cash for reviews
+                        </CardDescription>
                     </CardHeader>
                 </Card>
                 <Card className="flex items-center p-2 w-[488px] border-none">
@@ -68,10 +72,12 @@ function Content() {
                         width={123.54}
                     />
                     <CardHeader>
-                        <CardTitle className="whitespace-nowrap overflow-hidden overflow-ellipsis">
+                        <CardTitle className="whitespace-nowrap font-bold text-2xl overflow-hidden overflow-ellipsis">
                             MouthShut for Brands
                         </CardTitle>
-                        <CardDescription>Request a Demo</CardDescription>
+                        <CardDescription className="text-base ">
+                            Request a Demo
+                        </CardDescription>
                     </CardHeader>
                 </Card>
             </div>

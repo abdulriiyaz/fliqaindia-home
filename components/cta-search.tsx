@@ -24,7 +24,6 @@ function CTASearch() {
                     Experience hassle-free bookings. Trusted by 2500+ Customers
                 </h2>
             </div>
-            {/* Add Search component */}
             <Separator className="relative opacity-0" />
             <div className="w-full h-[51px] left-0 bottom-0 mb-6 items-center">
                 <Input
